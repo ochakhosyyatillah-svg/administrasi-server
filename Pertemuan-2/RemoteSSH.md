@@ -10,10 +10,8 @@
 ![alt text](image15.png)
 
 4. "sudo apt-get Update"(Update OS) lanjut "sudo apt-get Upgrade"
-![alt text](image16.png)
-
 5. Pembuktian Remote SSH secara visual
-![alt text](image17.png)
+![alt text](image16.png)
 
 6. sudo shutdown now
 ![alt text](image18.png)
