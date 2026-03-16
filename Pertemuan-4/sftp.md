@@ -25,7 +25,9 @@
 
 3. Arahkan directory Cloud (panel kanan) ke folder web server services area 
 - /var/www/html
+
 ![alt text](image2.png)
+
 ![alt text](image3.png)
 
 4. untuk solusi permission denied pada folder /var/www/html
