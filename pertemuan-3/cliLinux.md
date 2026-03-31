@@ -18,4 +18,4 @@
 13. nano index.html untuk custom Nama dan Nim
 ![alt text](image3.png)
 14. shutdwon aws
-![alt text](image4.png)
+![alt text](image4.png)git
