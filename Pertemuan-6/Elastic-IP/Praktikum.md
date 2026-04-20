@@ -11,7 +11,7 @@
 - centang mana EIP yang dipilih
 - pilih actions -> associate elastic IP
 - resource type pilih instance
-- pilih instance (2388010040_server)
+- pilih instance (2388010036_server)
 - klik associate
 
 ![alt text](image.png)
