@@ -19,8 +19,8 @@
   - unzip nama_file.zip
 
 4. Export dbcompro dari localhost ke sql
-- login ke SQL
-   - use dbCompro;
+- login ke SQL ec2 sudo mysql -u USERCOMPRO -p
+- use dbCompro;
 - copy paste query sql dari localhost (Engine dihapus)
 - cek apakah tabel sudah terisi
   - select * from berita;
@@ -39,7 +39,11 @@
 - NEXTAUTH_SECRET=ganti-dengan -string-acak-panjang-minimal-32-karakter
 - NEXTAUTH_URL=http://3.105.210.196:3000/
 
-6. Di termiinal ssh cd ke folderstandalone run apps -pm2 start server.js -pm2 save -pm2 startup
+6. Di termiinal ssh cd ke folderstandalone run apps 
+- pm2 start server.js 
+- pm2 save 
+- pm2 startup
+- pm2 status
 ![alt text](image-3.png)
 
 7. Buka port 3000 di securitygroup ec2 aws
@@ -47,7 +51,5 @@
 - save
 - check perubahan 
 ![alt text](image-4.png)
-
-8. Edit berita
 ![alt text](image-5.png)
 ![alt text](image-6.png)
